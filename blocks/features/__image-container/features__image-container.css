@@ -1,0 +1,17 @@
+.features__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  border-radius: 44px;
+}
+.features__image-container_green {
+  background-color: rgba(143, 166, 50, 0.1);
+}
+.features__image-container_red {
+  background-color: rgba(230, 77, 46, 0.1);
+}
+.features__image-container_orange {
+  background-color: rgba(220, 120, 11, 0.1);
+}

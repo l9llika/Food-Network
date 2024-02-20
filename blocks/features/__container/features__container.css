@@ -1,0 +1,7 @@
+.features__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}

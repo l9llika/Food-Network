@@ -1,0 +1,13 @@
+.section__title {
+  margin: 0 0 15px;
+  padding: 0;
+  color: #dc780b;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.2px;
+  text-transform: uppercase;
+}

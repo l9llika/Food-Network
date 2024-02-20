@@ -1,0 +1,13 @@
+.navbar__link {
+  text-decoration: none;
+  color: rgba(21, 12, 1, 0.7);
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.navbar__link:hover {
+  color: #dc780b;
+  background-size: 100% 2px;
+}

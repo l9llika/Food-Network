@@ -1,0 +1,16 @@
+.main-button {
+  width: 156px;
+  height: 75px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dc780b;
+  color: #ffffff;
+}
+.main-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.main-button_header {
+  width: 155px;
+  height: 46px;
+}

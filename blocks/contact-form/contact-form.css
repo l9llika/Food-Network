@@ -1,0 +1,9 @@
+.contact-form {
+  margin: auto;
+  padding: 115px 20px;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(220, 120, 11, 0.1);
+}
