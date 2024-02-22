@@ -16,6 +16,12 @@
 @import url(../blocks/section/__title/section__title.css);
 @import url(../blocks/section/__subtitle/section__subtitle.css);
 @import url(../blocks/section/__text/section__text.css);
+@import url(../blocks/section/__link/section__link.css);
+@import url(../blocks/section/__link-image/section__link-image.css);
+@import url(../blocks/section/__link-wrap/section__link-wrap.css);
+/* promo */
+@import url(../blocks/promo/promo.css);
+@import url(../blocks/promo/__image/promo__image.css);
 /* features */
 @import url(../blocks/features/features.css);
 @import url(../blocks/features/__container/features__container.css);
@@ -24,11 +30,42 @@
 @import url(../blocks/features/__item/features__item.css);
 @import url(../blocks/features/__text/features__text.css);
 @import url(../blocks/features/__image-container/features__image-container.css);
+/* about */
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__container/about__container.css);
+@import url(../blocks/about/__image/about__image.css);
+@import url(../blocks/about/__image-bg/about__image-bg.css);
 /* testimonial */
 @import url(../blocks/testimonial/testimonial.css);
+@import url(../blocks/testimonial/__arrow-button/testimonial__arrow-button.css);
+@import url(../blocks/testimonial/__author-job/testimonial__author-job.css);
+@import url(../blocks/testimonial/__author/testimonial__author.css);
+@import url(../blocks/testimonial/__avatar-bg/testimonial__avatar-bg.css);
+@import url(../blocks/testimonial/__avatar/testimonial__avatar.css);
+@import url(../blocks/testimonial/__avatar-container/testimonial__avatar-container.css);
+@import url(../blocks/testimonial/__container/testimonial__container.css);
+@import url(../blocks/testimonial/__rating/testimonial__rating.css);
+@import url(../blocks/testimonial/__star/testimonial__star.css);
+@import url(../blocks/testimonial/__wrap/testimonial__wrap.css);
+@import url(../blocks/testimonial/__text/testimonial__text.css);
+/* app */
+@import url(../blocks/app/app.css);
+@import url(../blocks/app/__container/app__container.css);
+@import url(../blocks/app/__image/app__image.css);
 /* contact-form */
 @import url(../blocks/contact-form/contact-form.css);
 @import url(../blocks/contact-form/__form/contact-form__form.css);
 @import url(../blocks/contact-form/__textarea/contact-form__textarea.css);
+@import url(../blocks/contact-form/__container/contact-form__container.css);
 /* main-button */
 @import url(../blocks/main-button/main-button.css);
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__heading/footer__heading.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__social-logo/footer__social-logo.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__mf-logo/footer__mf-logo.css);

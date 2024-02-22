@@ -1,0 +1,7 @@
+.testimonial__arrow-button {
+  border: none;
+  background-color: #fff;
+}
+.testimonial__arrow-button:hover {
+  cursor: pointer;
+}

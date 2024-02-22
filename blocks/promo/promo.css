@@ -1,0 +1,9 @@
+.promo {
+  position: relative;
+  margin: auto;
+  padding: 135px 20px;
+  max-width: 1200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

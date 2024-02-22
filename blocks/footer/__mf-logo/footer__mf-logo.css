@@ -1,0 +1,6 @@
+.footer__mf-logo {
+  width: 100px;
+}
+.footer__mf-logo:hover {
+  opacity: 0.6;
+}

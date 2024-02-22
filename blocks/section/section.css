@@ -4,3 +4,7 @@
   align-items: center;
   flex-direction: column;
 }
+.section_left-side {
+  align-items: flex-start;
+  max-width: 555px;
+}

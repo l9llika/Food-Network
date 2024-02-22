@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Network</title>
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"><!-- 32×32 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -51,7 +52,20 @@
 </header>
 <!-- ./header -->
 <main class="main">
-  <section class="promo"></section>
+  <section class="promo">
+      <div class="section section_left-side">
+        <h1 class="section__subtitle section__subtitle_left-side section__subtitle_promo">Making time a good time by making food the good food. </h1>
+        <span class="section__text section__text_left-side">
+          There are many things are needed to start the Fast Food Business.
+          You need not only Just Food Stalls with Persons but also specialized equipment,
+        </span>
+        <div class="section__link-wrap">
+          <button class="main-button main-button_promo">Order Now</button>
+          <button class="main-button main-button_promo main-button_clear">Food Details</button>
+        </div>
+      </div>
+      <img src="./images/promo-image.png" alt="Good food" class="promo__image">
+  </section>
   <!-- ./promo -->
   <section class="features">
     <div class="section">
@@ -83,11 +97,49 @@
     </div>
   </section>
   <!-- ./features -->
-  <section class="about"></section>
+  <section class="about">
+    <div class="about__container">
+      <div class="section section_left-side">
+        <h2 class="section__title">About us</h2>
+        <p class="section__subtitle section__subtitle_left-side">Food Stalls with Persons but  to  Product marketing plane. </p>
+        <span class="section__text section__text_left-side">
+          There are many things are needed to start the Fast Food Business.
+          You need not only Just Food Stalls with Persons but also specialized equipmentwith
+          Persons but also  Just Food Stalls with Persons.
+        </span>
+        <button class="main-button main-button_about">Read More</button>
+      </div>
+      <img src="./images/about-image.png" alt="About Us image" class="about__image">
+      <img src="./images/about-bg-image.svg" alt="" class="about__image-bg">
+    </div>
+  </section>
   <!-- ./about -->
   <section class="food-menu"></section>
   <!-- ./food-menu -->
-  <section class="app"></section>
+  <section class="app">
+    <div class="app__container">
+    <div class="section section_left-side">
+      <h2 class="section__title">Take away</h2>
+      <p class="section__subtitle section__subtitle_left-side">Food Stalls with Persons but  to  Product marketing plane. </p>
+      <span class="section__text section__text_left-side">
+        There are many things are needed to start the Fast Food Business.
+        You need not only Just Food Stalls with Persons but also specialized equipmentwith
+        Persons but also  Just Food Stalls with Persons.
+      </span>
+      <div class="section__link-wrap">
+      <a href="#" class="section__link section__link_appstore">
+        <img src="./images/appstore-image.svg" alt="App store" class="section__link-image">
+        App Store
+      </a>
+      <a href="#" class="section__link section__link_googleplay">
+        <img src="./images/googleplay-image.svg" alt="Google Play" class="section__link-image">
+        Google Play
+      </a>
+      </div>
+    </div>
+    <img src="./images/app-image.png" alt="Go to appstore!" class="app__image">
+    </div>
+  </section>
   <!-- ./app -->
   <section class="testimonial">
     <div class="section">
@@ -95,20 +147,147 @@
       <p class="section__subtitle">Making Food great again and again</p>
       <span class="section__text">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</span>
     </div>
+    <div class="testimonial__container">
+      <button class="testimonial__arrow-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none">
+        <g opacity="0.5">
+          <path d="M8 14L2 8L8 2" stroke="#150C01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="testimonial__arrow-button"/>
+        </g>
+      </svg>
+    </button>
+    <div class="testimonial__wrap">
+      <div class="testimonial__avatar-container">
+      <img src="./images/testimonial-author-avatar-1.jpeg" alt="avatar" class="testimonial__avatar">
+      <img src="./images/testimonial-avatar-bg.svg" alt="#" class="testimonial__avatar-bg">
+      </div>
+      <p class="testimonial__text">You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers, Effective Product catlogues etc very successful to make your.</p>
+      <div class="testimonial__rating">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="testimonial__star">
+          <g clip-path="url(#clip0_2_119)">
+            <path d="M16 6.18179L10.1863 5.79957L7.99681 0.299072L5.80734 5.79957L0 6.18179L4.45419 9.96385L2.99256 15.701L7.99681 12.5379L13.0011 15.701L11.5395 9.96385L16 6.18179Z" fill="#DC780B"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_2_119">
+              <rect width="16" height="16" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="testimonial__star">
+          <g clip-path="url(#clip0_2_119)">
+            <path d="M16 6.18179L10.1863 5.79957L7.99681 0.299072L5.80734 5.79957L0 6.18179L4.45419 9.96385L2.99256 15.701L7.99681 12.5379L13.0011 15.701L11.5395 9.96385L16 6.18179Z" fill="#DC780B"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_2_119">
+              <rect width="16" height="16" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="testimonial__star">
+          <g clip-path="url(#clip0_2_119)">
+            <path d="M16 6.18179L10.1863 5.79957L7.99681 0.299072L5.80734 5.79957L0 6.18179L4.45419 9.96385L2.99256 15.701L7.99681 12.5379L13.0011 15.701L11.5395 9.96385L16 6.18179Z" fill="#DC780B"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_2_119">
+              <rect width="16" height="16" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none" class="testimonial__star">
+          <g clip-path="url(#clip0_2_119)">
+            <path d="M16 6.18179L10.1863 5.79957L7.99681 0.299072L5.80734 5.79957L0 6.18179L4.45419 9.96385L2.99256 15.701L7.99681 12.5379L13.0011 15.701L11.5395 9.96385L16 6.18179Z" fill="#DC780B"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_2_119">
+              <rect width="16" height="16" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <g clip-path="url(#clip0_2_103)">
+            <path d="M16 6.18179L10.1863 5.79957L7.99681 0.299072L5.80734 5.79957L0 6.18179L4.45419 9.96385L2.99256 15.701L7.99681 12.5379L13.0011 15.701L11.5395 9.96385L16 6.18179Z" fill="#C4C4C4"/>
+          </g>
+          <defs>
+            <clipPath id="clip0_2_103">
+              <rect width="16" height="16" fill="white"/>
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+      <span class="testimonial__author">Augusta W. Reynoso</span>
+      <span class="testimonial__author-job">UI&UX DeSIGNER</span>
+    </div>
+    <button class="testimonial__arrow-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" viewBox="0 0 10 16" fill="none">
+      <path d="M2 2L8 8L2 14" stroke="#150C01" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </button>
+    </div>
   </section>
   <!-- ./testimonial -->
   <section class="contact-form">
-    <h2 class="section__title">Contact</h2>
-    <p class="section__subtitle">Food Stalls with Persons but also specialized equipment, Skills to manage.</p>
-    <form action="#" class="contact-form__form">
-      <textarea name="#" id="#" cols="30" rows="10" class="contact-form__textarea">Enter your message</textarea>
-      <button class="main-button">Send</button>
-    </form>
+    <div class="contact-form__container">
+      <h2 class="section__title">Contact</h2>
+      <p class="section__subtitle">Food Stalls with Persons but also specialized equipment, Skills to manage.</p>
+      <form action="#" class="contact-form__form">
+        <textarea name="#" id="#" cols="30" rows="10" class="contact-form__textarea">Enter your message</textarea>
+        <button class="main-button">Send</button>
+      </form>
+    </div>
   </section>
   <!-- ./contact-form -->
 </main>
 <!-- ./main -->
-<footer class="footer"></footer>
+<footer class="footer">
+  <div class="footer__container">
+    <div class="footer__column">
+      <a href="#" class="logo">
+        <img src="images/logo.svg" alt="Food Network Logo" class="logo__image logo__image_footer"/>
+      </a>
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="#" class="footer__link">www.company name.com</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">companyname@gmail.com</a></li>
+        <li class="footer__list-item">
+          <a href="+7 485-118-03-25" class="footer__link">Phone: +7 485-118-03-25</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <p class="footer__heading">Home</p>
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="#" class="footer__link">Landingpage</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Documentation</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Referral Program</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">UI & UX Design</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Web Design</a></li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <p class="footer__heading">Menu</p>
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="#" class="footer__link">Landingpage</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Documentation</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Referral Program</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">UI & UX Design</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Web Design</a></li>
+      </ul>
+    </div>
+    <div class="footer__column">
+      <p class="footer__heading">Company</p>
+      <ul class="footer__list">
+        <li class="footer__list-item"><a href="#" class="footer__link">Landingpage</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Documentation</a></li>
+        <li class="footer__list-item"><a href="#" class="footer__link">Referral Program</a></li>
+      </ul>
+      <div class="footer__social">
+        <a href="#" class="footer__link"><img src="./images/instagram-logo.svg" alt="Instagram link" class="footer__social-logo"></a>
+        <a href="#" class="footer__link"><img src="./images/facebook-logo.svg" alt="Facebook link" class="footer__social-logo"></a>
+        <a href="#" class="footer__link"><img src="./images/twitter-logo.svg" alt="Twitter link" class="footer__social-logo"></a>
+        <a href="#" class="footer__link"><img src="./images/youtube-logo.svg" alt="Youtube link" class="footer__social-logo"></a>
+      </div>
+      <a href="https://github.com/l9llika"><img src="./images/rzwd-dark.png" alt="rzaev-web-dev" class="footer__mf-logo"></a>
+    </div>
+  </div>
+</footer>
 <!-- ./footer -->
 </body>
 </html>

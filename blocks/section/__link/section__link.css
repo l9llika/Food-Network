@@ -1,0 +1,25 @@
+.section__link {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px;
+  width: 163px;
+  height: 48px;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 5px;
+}
+.section__link_appstore {
+  color: #fff;
+  background-color: #150c01;
+  margin-right: 30px;
+}
+
+.section__link_googleplay {
+  color: #150c01;
+  border: solid 2px #dcdcdc;
+}

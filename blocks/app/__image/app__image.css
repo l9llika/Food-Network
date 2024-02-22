@@ -1,0 +1,8 @@
+.app__image {
+  position: absolute;
+  width: 323.136px;
+  height: 651px;
+  object-fit: cover;
+  top: -50px;
+  right: 100px;
+}

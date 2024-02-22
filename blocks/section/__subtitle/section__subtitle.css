@@ -10,3 +10,13 @@
   font-weight: 700;
   line-height: 40.6px; /* 129.92% */
 }
+.section__subtitle_left-side {
+  width: 100%;
+  text-align: left;
+}
+.section__subtitle_promo {
+  font-size: 48.83px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.6px; /* 117.96% */
+}
